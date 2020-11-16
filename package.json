@@ -1,0 +1,44 @@
+{
+  "name": "api-omdb",
+  "version": "1.0.0",
+  "description": "Api to translate and treat requests to omdb",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server",
+    "lint": "eslint src --fix",
+    "test:unit": "jest --coverage --verbose --detectOpenHandles --testRegex /unit/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersonrostirolla/api-omdb.git"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "omdb"
+  ],
+  "author": "Anderson Rostirolla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andersonrostirolla/api-omdb/issues"
+  },
+  "homepage": "https://github.com/andersonrostirolla/api-omdb#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.13.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
